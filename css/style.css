@@ -1,0 +1,83 @@
+/* Обнуляющий стиль */
+/* *,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+} */
+/* -------------- */
+
+/* Обнуляющий стиль отключил, так пока красивее))*/
+
+.menu__list li,
+.footer__logo + div {
+	color: chocolate;
+}
+.menu__link {
+	color: #5c2804;
+}
+.btn,
+.touch__contacts a {
+	color: #70c851;
+}
+span {
+	color: #ee25ee;
+}
+.blog__title,
+.touch__title,
+.blog__pref {
+	color: midnightblue;
+}
+.blog__second span {
+	color: maroon;
+}
+.blog__text .blog__second {
+	color: lightseagreen;
+}
+.blog__text > p {
+	color: #f82d2d;
+}
+.blog__image + p {
+	color: #7e920e;
+}
+h1 + div,
+.blog__pref .blog__list,
+.footer__subtitle {
+	color: #6257fa;
+}
+.touch__text {
+	color: tomato;
+}
+.touch__contacts li {
+	color: #ffc400;
+}
+a.footer__link {
+	color: #f352de;
+}
+.footer__copyright {
+	color: indigo;
+}
